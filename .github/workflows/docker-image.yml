@@ -24,4 +24,4 @@ jobs:
         echo $PASS
         docker build . --file Dockerfile --tag akashigt/devops-ci-task-1:v1
         docker login -u $USER -p $PASS        
-        docker push arunvel1988/akashigt/devops-ci-task-1:v1
+        docker push akashigt/devops-ci-task-1:v1
